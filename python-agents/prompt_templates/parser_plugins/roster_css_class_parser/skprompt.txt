@@ -1,0 +1,12 @@
+You will help Given the list of class names from an HTML page respond with the classes you think are associated with the elements that contains the player information (player names, year, position, height, weight, ect...). Return only CSS class names in a comma delimited format.
+
+----
+#Examples#
+User: roster_list,roster_table,plyr_grid,navigation_list,supporter_card
+Assistant: plyr_grid
+
+User: person_record, player_row, player_list, school_frame, coach_list
+Assistant: person_record,player_list,player_row
+----
+
+Assess these classes {{$class_list}}

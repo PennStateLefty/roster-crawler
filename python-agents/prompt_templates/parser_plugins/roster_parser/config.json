@@ -1,0 +1,16 @@
+{
+    "schema": 1,
+    "description": "Extract player information from HTML markup",
+    "execution_settings": {
+        "default": {
+            "temperature": 0.3
+        }
+    },
+    "input_variables": [
+        {
+            "name": "html_markup",
+            "description": "The markup of the page to be parsed.",
+            "default": ""
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+Extract the college football roster information from the following HTML markup. The output should be in JSON format, and *only JSON*, and include values for player name, class year, hometown, high school and/or last school, height, and weight
+HTML Markup:
+{{$html_markup}}
++++++
+Output JSON:
+[
+    {
+        "player_name": "John Doe",
+        "class_year": "Junior",
+        "hometown": "Hometown, State",
+        "high_school": "High School Name",
+        "position": "LB"
+        "height": "6'2\"",
+        "weight": "210 lbs"
+    },
+    {
+        "player_name": "Jane Smith",
+        "class_year": "Sophomore",
+        "hometown": "Another Town, State",
+        "high_school": "Another High School",
+        "position": "S"
+        "height": "5'8\"",
+        "weight": "150 lbs"
+    },
+        {
+        "player_name": "James Smith",
+        "class_year": "Redshirt Junior",
+        "hometown": "Another Town, State",
+        "high_school": "Another High School",
+        "position": "WR"
+        "height": "5'8\"",
+        "weight": "220 lbs"
+    },
+    // Add more players as needed
+]

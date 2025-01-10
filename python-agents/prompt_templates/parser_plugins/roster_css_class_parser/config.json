@@ -1,0 +1,16 @@
+{
+    "schema": 1,
+    "description": "Find CSS classes that may contain roster information.",
+    "execution_settings": {
+        "default": {
+            "temperature": 0.3
+        }
+    },
+    "input_variables": [
+        {
+            "name": "class_list",
+            "description": "A list of CSS classes in the HTML.",
+            "default": ""
+        }
+    ]
+}

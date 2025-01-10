@@ -1,0 +1,3 @@
+semantic-kernel
+aiohttp
+BeautifulSoup4
