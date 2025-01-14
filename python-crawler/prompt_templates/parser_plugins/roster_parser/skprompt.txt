@@ -1,4 +1,4 @@
-Extract the college football roster information from the following HTML markup. The output should be in JSON format, and *only JSON*, and include values for player name, class year, hometown, high school and/or last school, height, and weight
+Extract the college football roster information from the following HTML markup. The output should be in JSON format, and *only JSON*, and include values for player name, class year, hometown, high school and/or last school, position, height, and weight
 HTML Markup:
 {{$html_markup}}
 +++++

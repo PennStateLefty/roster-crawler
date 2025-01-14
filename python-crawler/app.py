@@ -17,7 +17,7 @@ chat_completion_service = AzureChatCompletion(
 
 kernel = Kernel()
 kernel.add_service(chat_completion_service)
-plugins_directory = "/Users/jeremiahgutherie/Development/AI/ea-roster/python-agents/prompt_templates"
+plugins_directory = os.path.join(os.path.dirname(__file__), "prompt_templates")
 parser_functions = kernel.add_plugin(parent_directory=plugins_directory, plugin_name="parser_plugins")
 roster_parser = parser_functions["roster_parser"]
 css_parser = parser_functions["roster_css_class_parser"]
